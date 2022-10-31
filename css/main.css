@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Text", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(hsl(235deg, 16%, 14%), hsl(236deg, 21%, 26%));
+  width: 100%;
+  min-height: 100vh;
+}
+
+img {
+  width: 100%;
+}
+
+.img {
+  width: 100%;
+  z-index: -4;
+}
+
+.pattern {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+
+.container {
+  max-width: 1440px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  place-items: center;
+}
+.box p {
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+}
+
+.boxes {
+  margin-top: 9em;
+  display: grid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+.boxes .number {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: grid;
+  place-items: center;
+}
+.boxes .number .pnum {
+  color: hsl(237deg, 18%, 59%);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  padding: 30px;
+  letter-spacing: 2px;
+}
+.boxes .number .top {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  background-color: hsl(235deg, 16%, 14%);
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  color: hsl(345deg, 95%, 68%);
+  height: 40px;
+  width: 100px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.boxes .number .top p {
+  overflow-x: hidden;
+  position: relative;
+  font-size: 3.5rem;
+  bottom: -21px;
+}
+.boxes .number .bottom {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  background-color: hsl(236deg, 21%, 26%);
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  color: hsl(345deg, 95%, 68%);
+  height: 40px;
+  width: 100px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.boxes .number .bottom p {
+  overflow-x: hidden;
+  position: relative;
+  top: -19px;
+  font-size: 3.5rem;
+}
+
+.phead {
+  color: hsl(0deg, 0%, 100%);
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.socials {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  gap: 2em;
+  color: hsl(0deg, 0%, 100%);
+  bottom: 2rem;
+  margin: 0 auto;
+}
+.socials img {
+  width: 20px;
+}/*# sourceMappingURL=main.css.map */
